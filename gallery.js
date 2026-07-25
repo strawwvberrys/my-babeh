@@ -1,11 +1,9 @@
-const photos = [
-"images/photo1.png",
-"images/photo2.png",
-"images/photo3.png",
-"images/photo4.png",
-"images/photo5.png",
-"images/photo6.png"
-];
+console.log("gallery.js loaded");
+const photos = [];
+
+for (let i = 1; i <= 41; i++) {
+    photos.push(`images/photo${i}.png`);
+}
 
 let current = 0;
 

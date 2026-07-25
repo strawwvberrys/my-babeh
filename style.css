@@ -1409,22 +1409,18 @@ body.letters-page{
 
 }
 .scrap-photo{
+    width:250px;
+    height:320px;
 
-    width:280px;
-    height:350px;
+    object-fit:contain;
 
-    object-fit:cover;
+    background:white;
 
-    display:block;
+    padding:15px;
 
-    background:#fff;
+    border-radius:10px;
 
-    padding:12px;
-
-    border-radius:8px;
-
-    box-shadow:0 15px 30px rgba(0,0,0,.15);
-
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
 }
 .scrap-photo:hover{
 
