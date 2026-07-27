@@ -393,23 +393,6 @@ transform:translate(-50%,-8px) rotate(0deg) scale(1.08);
         FOOTER
 =========================== */
 
-.footer{
-
-    margin-top:80px;
-
-    padding:35px;
-
-    text-align:center;
-
-    background:#ffd6dd;
-
-    color:#f09abc;
-
-    font-family:"Gojiberry";
-
-    font-size:24px;
-
-}
 
 /* ===========================
       MOBILE SUPPORT
@@ -1505,4 +1488,38 @@ body.letters-page{
 .bow{
     right:-45px;
     top:-25px;
+}
+.sparkle{
+
+    position:fixed;
+
+    pointer-events:none;
+
+    color:white;
+
+    font-size:18px;
+
+    animation:sparkle .8s forwards;
+
+    z-index:9999;
+}
+
+@keyframes sparkle{
+
+    from{
+
+        opacity:1;
+
+        transform:translateY(0) scale(1);
+
+    }
+
+    to{
+
+        opacity:0;
+
+        transform:translateY(-25px) scale(.2);
+
+    }
+
 }

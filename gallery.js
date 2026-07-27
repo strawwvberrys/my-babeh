@@ -175,7 +175,18 @@ const pages = [
     rightPhoto: "images/photo1.png",
     rightText: "I love you more than words can ever say."
 }
+document.querySelectorAll(".scrap").forEach(card=>{
+    card.style.opacity="0";
+    card.style.transform+=" scale(.96)";
+});
 
+setTimeout(()=>{
+    showPhotos();
+
+    document.querySelectorAll(".scrap").forEach(card=>{
+        card.style.opacity="1";
+    });
+},200);
 ];
 
 let current = 0;
@@ -212,3 +223,62 @@ function previousPage(){
 }
 
 showPage();
+
+window.addEventListener("load",()=>{
+
+    setTimeout(()=>{
+
+        const loader=document.getElementById("loader");
+
+        loader.style.opacity="0";
+
+        setTimeout(()=>{
+
+            loader.style.display="none";
+
+        },800);
+
+    },1700);
+
+});
+document.addEventListener("mousemove",function(e){
+
+    const sparkle=document.createElement("div");
+
+    sparkle.className="sparkle";
+
+    sparkle.innerHTML="✦";
+
+    sparkle.style.left=e.pageX+"px";
+
+    sparkle.style.top=e.pageY+"px";
+
+    document.body.appendChild(sparkle);
+
+    setTimeout(()=>{
+
+        sparkle.remove();
+
+    },800);
+
+});document.addEventListener("mousemove",function(e){
+
+    const sparkle=document.createElement("div");
+
+    sparkle.className="sparkle";
+
+    sparkle.innerHTML="✦";
+
+    sparkle.style.left=e.pageX+"px";
+
+    sparkle.style.top=e.pageY+"px";
+
+    document.body.appendChild(sparkle);
+
+    setTimeout(()=>{
+
+        sparkle.remove();
+
+    },800);
+
+});
