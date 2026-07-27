@@ -42,50 +42,50 @@ const pages = [
 
 {
     leftPhoto: "images/photo11.png",
-    leftText: "",
+    leftText: "caught him killing the patient",
 
     rightPhoto: "images/photo12.png",
-    rightText: ""
+    rightText: "nerd"
 },
 
 {
     leftPhoto: "images/photo13.png",
-    leftText: "",
+    leftText: "pusheen da goat",
 
     rightPhoto: "images/photo14.png",
-    rightText: ""
+    rightText: "golden poop in a golden toilet"
 },
 
 {
     leftPhoto: "images/photo15.png",
-    leftText: "",
+    leftText: "WE made it",
 
     rightPhoto: "images/photo16.png",
-    rightText: ""
+    rightText: "fat asses"
 },
 
 {
     leftPhoto: "images/photo17.png",
-    leftText: "",
+    leftText: "stalking my prey",
 
     rightPhoto: "images/photo18.png",
-    rightText: ""
+    rightText: "silly face"
 },
 
 {
     leftPhoto: "images/photo19.png",
-    leftText: "",
+    leftText: "FINALLY won",
 
     rightPhoto: "images/photo20.png",
-    rightText: ""
+    rightText: "toh goats"
 },
 
 {
     leftPhoto: "images/photo21.png",
-    leftText: "",
+    leftText: "sillay swing",
 
     rightPhoto: "images/photo22.png",
-    rightText: ""
+    rightText: "hello kitty dance battle"
 },
 
 {
@@ -101,7 +101,7 @@ const pages = [
     leftText: "",
 
     rightPhoto: "images/photo26.png",
-    rightText: ""
+    rightText: "monkes mating ritual"
 },
 
 {
@@ -109,20 +109,20 @@ const pages = [
     leftText: "",
 
     rightPhoto: "images/photo28.png",
-    rightText: ""
+    rightText: "on the way to the burger date"
 },
 
 {
     leftPhoto: "images/photo29.png",
-    leftText: "",
+    leftText: "booger date",
 
     rightPhoto: "images/photo30.png",
-    rightText: ""
+    rightText: "usagi and da hawtie"
 },
 
 {
     leftPhoto: "images/photo31.png",
-    leftText: "",
+    leftText: "diarrhea",
 
     rightPhoto: "images/photo32.png",
     rightText: ""
@@ -162,7 +162,15 @@ const pages = [
 
 {
     leftPhoto: "images/photo41.png",
-    leftText: "♡ The end... but only the beginning of our story. ♡",
+    leftText: "",
+
+    rightPhoto: "images/photo42.png",
+    rightText: ""
+},
+
+{
+    leftPhoto: "images/photo43.png",
+    leftText: "The end... but our story hasn't ended",
 
     rightPhoto: "images/photo1.png",
     rightText: "I love you more than words can ever say."
