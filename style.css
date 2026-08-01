@@ -1596,3 +1596,14 @@ body.letters-page{
     line-height:1.8;
     color:#d97ca6;
 }
+.version{
+    font-family:"Gojiberry";
+    font-size:28px;
+    color:#f49fc5;
+    text-align:center;
+    line-height:1.7;
+    margin:15px 0 35px;
+
+    text-shadow:
+        0 0 8px rgba(255,255,255,.8);
+}
