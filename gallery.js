@@ -167,10 +167,17 @@ const pages = [
     rightPhoto: "images/photo42.png",
     rightText: ""
 },
+{
+    leftPhoto: "images/photo44.jpeg",
+    leftText: "a suprise for you my love, I hope you like it...",
+
+    rightPhoto: "images/photo45.jpeg",
+    rightText: "I'M SO EMBARRASSED"
+},
 
 {
     leftPhoto: "images/photo43.png",
-    leftText: "The end of the gallery.",
+    leftText: "Ahem the end of the gallery.",
 
     rightPhoto: "images/photo1.png",
     rightText: "I'll love you forever Riley, I can't wait to make more memories with you my loaf."
