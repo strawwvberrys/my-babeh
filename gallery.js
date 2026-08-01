@@ -170,10 +170,10 @@ const pages = [
 
 {
     leftPhoto: "images/photo43.png",
-    leftText: "♡ The end... but our story hasn't ended♡",
+    leftText: "The end of the gallery.",
 
     rightPhoto: "images/photo1.png",
-    rightText: "I love you more than words can ever say."
+    rightText: "I'll love you forever Riley, I can't wait to make more memories with you my loaf."
 }
 
 ];
