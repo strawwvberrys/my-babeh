@@ -168,6 +168,20 @@ const pages = [
     rightText: ""
 },
 {
+    leftPhoto: "images/photo47.png",
+    leftText: "our big familyy hehe",
+
+    rightPhoto: "images/photo46.png",
+    rightText: "family roadtrip"
+},
+{
+    leftPhoto: "images/photo48.png",
+    leftText: "our son",
+
+    rightPhoto: "images/photo49.png",
+    rightText: "my loaf driving us around"
+},
+{
     leftPhoto: "images/photo44.jpeg",
     leftText: "a suprise for you my love, I hope you like it...",
 
