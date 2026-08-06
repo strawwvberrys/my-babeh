@@ -1607,3 +1607,380 @@ body.letters-page{
     text-shadow:
         0 0 8px rgba(255,255,255,.8);
 }
+
+/* ---------------- Flower Game ---------------- */
+
+
+
+/* Flower */
+
+#flower{
+
+    width:170px;
+
+    user-select:none;
+
+    transition:
+        transform .45s ease,
+        filter .4s ease;
+
+}
+
+#flower:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* Watering Can */
+
+#wateringCan{
+
+    width:110px;
+
+    margin-top:15px;
+
+    cursor:pointer;
+
+    transition:transform .25s ease;
+
+}
+
+#wateringCan:hover{
+
+    transform:
+        rotate(-10deg)
+        scale(1.08);
+
+}
+
+#wateringCan:active{
+
+    transform:
+        rotate(12deg)
+        scale(.95);
+
+}
+
+/* Text Bubble */
+
+#flowerText{
+
+    margin-top:18px;
+
+    padding:10px 22px;
+
+    background:#fff6fa;
+
+    border:2px dashed #f9bfd3;
+
+    border-radius:999px;
+
+    color:#d77aa1;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+    box-shadow:
+
+        0 5px 15px rgba(255,183,210,.35);
+
+}
+
+/* Floating Sparkles */
+
+.love-garden{
+
+    width:330px;
+
+    margin:60px auto;
+
+    padding:30px;
+
+    text-align:center;
+
+    background:#fff8fb;
+
+    border:3px dashed #f8c5d8;
+
+    border-radius:30px;
+
+    box-shadow:0 10px 30px rgba(255,190,220,.25);
+
+    position:relative;
+
+
+}
+.love-garden h2{
+
+    color:#e47da8;
+
+    margin-bottom:25px;
+
+    font-size:30px;
+
+}
+
+.garden-left{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.garden-right{
+
+    flex:1;
+
+    text-align:center;
+
+}
+
+.garden-divider{
+
+    width:80%;
+
+    height:2px;
+
+    background:#f7c6d8;
+
+    margin:25px auto;
+
+    border-radius:50px;
+
+}
+
+.love-garden h3{
+
+    color:#df79a4;
+
+    margin-bottom:10px;
+
+    font-size:24px;
+
+}
+
+.garden-note{
+
+    margin-top:15px;
+
+    color:#bf7d98;
+
+    font-size:15px;
+
+    line-height:1.6;
+
+}
+
+@keyframes sparkle{
+
+    0%{
+
+        transform:translateY(0px) scale(1);
+        opacity:.4;
+
+    }
+
+    50%{
+
+        transform:translateY(-10px) scale(1.2);
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translateY(0px) scale(1);
+        opacity:.4;
+
+    }
+
+}
+
+@keyframes sparkle2{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+.grow{
+
+    animation:bloom .5s ease;
+
+}
+
+@keyframes bloom{
+
+    0%{
+
+        transform:scale(.85) rotate(-5deg);
+
+    }
+
+    50%{
+
+        transform:scale(1.12) rotate(5deg);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+/* ---------------- Days Together Box ---------------- */
+
+.love-counter{
+
+    width:260px;
+
+    margin:40px auto;
+
+    padding:22px;
+
+    text-align:center;
+
+    background:#fff8fb;
+
+    border:3px dashed #f7c3d8;
+
+    border-radius:28px;
+
+    box-shadow:
+        0 8px 20px rgba(255,190,220,.35);
+
+    position:relative;
+
+}
+
+/* Little lace corners */
+
+.love-counter::before{
+
+    content:"✦";
+
+    position:absolute;
+
+    top:12px;
+    left:15px;
+
+    color:#ffd96f;
+
+    font-size:18px;
+
+}
+
+.love-counter::after{
+
+    content:"♡";
+
+    position:absolute;
+
+    bottom:12px;
+    right:16px;
+
+    color:#ff9cc7;
+
+    font-size:18px;
+
+}
+
+.counter-hearts{
+
+    font-size:18px;
+
+    color:#ff9cc7;
+
+    margin-bottom:10px;
+
+}
+
+.love-counter h3{
+
+    margin:0;
+
+    font-size:22px;
+
+    color:#de6d9d;
+
+}
+
+#daysTogether{
+
+    margin:18px 0;
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    color:#ff7aa8;
+
+    text-shadow:0 2px 8px rgba(255,180,215,.45);
+
+}
+
+.love-counter p{
+
+    margin:0;
+
+    font-size:15px;
+
+    color:#c886a5;
+
+}
+.love-counter h3{
+
+    margin:0;
+
+    font-size:22px;
+
+    color:#de6d9d;
+
+}
+
+#daysTogether{
+
+    margin:18px 0;
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    color:#ff7aa8;
+
+    text-shadow:0 2px 8px rgba(255,180,215,.45);
+
+}
+
+.love-counter p{
+
+    margin:0;
+
+    font-size:15px;
+
+    color:#c886a5;
+
+}

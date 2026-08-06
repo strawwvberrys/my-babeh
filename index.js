@@ -1,5 +1,14 @@
 window.addEventListener("DOMContentLoaded", () => {
+const anniversary = new Date("2026-06-07");
 
+const today = new Date();
+
+const difference = today - anniversary;
+
+const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+document.getElementById("daysTogether").textContent =
+`${days} days ♡`;
 const loveMessage = `I love you, Je t'aime, Te amo, Te quiero, Eu te amo, Ti amo, Te iubesc, Ich liebe dich, Ik hou van jou, Ek is lief vir jou, Jag älskar dig, Jeg elsker deg, Jeg elsker dig, Ég elska þig, Minä rakastan sinua, Ma armastan sind, Es tevi mīlu, Aš tave myliu, Kocham cię, Miluji tě, Ľúbim ťa, Ljubim te, Volim te, Волим те, Volim te, Те сакам, Обичам те, Я тебя люблю, Я тебе кохаю, Я цябе кахаю, Σ' αγαπώ, Të dua, Seni seviyorum, Ես քեզ սիրում եմ, მიყვარხარ, أحبك, אני אוהב אותך, നിന്നെ സ്നേഹിക്കുന്നു, 我爱你, 我愛你, 愛してる, אני אוהבת אותך, دوستت دارم, Ez te hez dikim, मैं तुमसे प्यार करता हूँ, मैं तुमसे प्यार करती हूँ, میں تم سے محبت کرتا ہوں, میں تم سے محبت کرتی ہوں, আমি তোমাকে ভালোবাসি, ਮੈਂ ਤੈਨੂੰ ਪਿਆਰ ਕਰਦਾ ਹਾਂ, હું તને પ્રેમ કરું છું, मी तुझ्यावर प्रेम करतो, म तिमीलाई माया गर्छु, මම ඔයාට ආදරෙයි, நான் உன்னை காதலிக்கிறேன், నేను నిన్ను ప్రేమిస్తున్నాను, ನಾನು ನಿನ್ನನ್ನು ಪ್ರೀತಿಸುತ್ತೇನೆ, ഞാൻ, 사랑해, Anh yêu em, Em yêu anh, ฉันรักเธอ, Aku cinta kamu, Saya cinta padamu, Mahal kita, ချစ်တယ်, Би чамд хайртай, ຂ້ອຍຮັກເຈົ້າ, ខ្ញុំស្រឡាញ់អ្នក, Ngiyakuthanda, Ndiyakuthanda, Mo nifẹ rẹ, Nakupenda, A hụrụ m gị n'anya, Ina son ka, Waan ku jeclahay, እወድሃለሁ, Aloha wau iā ʻoe, Aroha ahau ki a koe, ʻOfa atu, Ou te alofa ia te oe, Ua here vau ia oe, Tá grá agam duit, Tha gaol agam ort, Rwy'n dy garu di, Da garout a ran, Maite zaitut, T'estimo, Quérote, Mi amas vin, Mi tu lub, Au domoni iko.`;
 
 const text = document.getElementById("loveText");
@@ -72,5 +81,36 @@ text.style.textShadow = "0 0 8px rgba(255,185,220,.4)";
 setTimeout(() => {
     text.style.textShadow = "none";
 }, 80);
+
+});
+const flower = document.getElementById("flower");
+const flowerText = document.getElementById("flowerText");
+const wateringCan = document.getElementById("wateringCan");
+
+let flowerStage = 1;
+
+wateringCan.addEventListener("click", () => {
+
+    if (flowerStage < 3) {
+
+        flowerStage++;
+
+        flower.src = `images/flower${flowerStage}.png`;
+
+        flower.classList.add("grow");
+
+        setTimeout(() => {
+            flower.classList.remove("grow");
+        }, 500);
+
+        if (flowerStage === 2) {
+            flowerText.textContent = "It's growing, like my love for you ♡";
+        }
+
+        if (flowerStage === 3) {
+            flowerText.textContent = "It's bloomed!🌸";
+        }
+
+    }
 
 });
